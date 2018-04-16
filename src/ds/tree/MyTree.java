@@ -65,6 +65,7 @@ public class MyTree<T extends Number> {
         else System.out.print("-");
      System.out.println(value);
         // System.out.print("-");
+
         loop++;
         if (leftChild != null) {
             right = '\\';
